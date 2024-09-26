@@ -11,14 +11,21 @@ final bankAccountToss = BankAccount(bankTtoss, 500000000);
 final bankAccountKakao =
     BankAccount(bankKakao, 700000000, accountTypeName: '입출금통장');
 
-main() {
-  print(bankAccounts[0].accountTypeName);
-}
-
 final bankAccounts = [
   bankAccountShinhan1,
+  bankAccountShinhan1,
+  bankAccountShinhan1,
+  bankAccountShinhan1,
+  bankAccountShinhan2,
+  bankAccountShinhan2,
+  bankAccountShinhan2,
   bankAccountShinhan2,
   bankAccountShinhan3,
+  bankAccountShinhan3,
+  bankAccountShinhan3,
+  bankAccountShinhan3,
+  bankAccountToss,
+  bankAccountToss,
   bankAccountToss,
   bankAccountKakao,
 ];
